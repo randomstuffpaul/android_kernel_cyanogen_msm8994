@@ -209,8 +209,8 @@ static const struct snd_kcontrol_new lpa_srs_trumedia_controls[] = {
 	.rreg = SND_SOC_NOPM,
 	.shift = 0,
 	.rshift = 0,
-	.max = 0xFFFFFFFF,
-	.platform_max = 0xFFFFFFFF,
+	.max = INT_MAX,
+	.platform_max = INT_MAX,
 	.invert = 0
 	})
 	}
@@ -229,8 +229,8 @@ static const struct snd_kcontrol_new lpa_srs_trumedia_controls_hdmi[] = {
 	.rreg = SND_SOC_NOPM,
 	.shift = 0,
 	.rshift = 0,
-	.max = 0xFFFFFFFF,
-	.platform_max = 0xFFFFFFFF,
+	.max = INT_MAX,
+	.platform_max = INT_MAX,
 	.invert = 0
 	})
 	}
@@ -249,8 +249,8 @@ static const struct snd_kcontrol_new lpa_srs_trumedia_controls_i2s[] = {
 	.rreg = SND_SOC_NOPM,
 	.shift = 0,
 	.rshift = 0,
-	.max = 0xFFFFFFFF,
-	.platform_max = 0xFFFFFFFF,
+	.max = INT_MAX,
+	.platform_max = INT_MAX,
 	.invert = 0
 	})
 	}
@@ -271,8 +271,8 @@ static const struct snd_kcontrol_new lpa_srs_trumedia_controls_mi2s[] = {
 			.rreg = SND_SOC_NOPM,
 			.shift = 0,
 			.rshift = 0,
-			.max = 0xFFFFFFFF,
-			.platform_max = 0xFFFFFFFF,
+			.max = INT_MAX,
+			.platform_max = INT_MAX,
 			.invert = 0
 		})
 	}
@@ -293,8 +293,8 @@ static const struct snd_kcontrol_new lpa_srs_trumedia_controls_quat_mi2s[] = {
 			.rreg = SND_SOC_NOPM,
 			.shift = 0,
 			.rshift = 0,
-			.max = 0xFFFFFFFF,
-			.platform_max = 0xFFFFFFFF,
+			.max = INT_MAX,
+			.platform_max = INT_MAX,
 			.invert = 0
 		})
 	}
